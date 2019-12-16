@@ -14,15 +14,18 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/store"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".CreateWallet"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Payment"></activity>
+        <activity android:name=".ProductInfor" />
+        <activity android:name=".ProductList" />
+        <activity android:name=".CreateWallet" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

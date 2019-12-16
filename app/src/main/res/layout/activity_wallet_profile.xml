@@ -23,6 +23,19 @@
             android:layout_alignParentStart="true"
             android:id="@+id/imageView2" />
 
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Wallet"
+            android:textSize="35dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageView"
+            />
+
         <RelativeLayout
             android:layout_marginTop="2dp"
             android:layout_width="match_parent"
@@ -32,10 +45,13 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity ="right"
                 android:text="@string/scan_qr"
-                android:layout_marginEnd="10dp"
-                android:layout_centerVertical="true"
-                android:layout_toStartOf="@+id/imageView" />
+                android:layout_marginRight="20dp"
+                android:layout_toStartOf="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"/>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -44,7 +60,8 @@
                 android:layout_marginRight="10dp"
                 app:srcCompat="@drawable/qr_code"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"/>
 
             <TextView
                 android:id="@+id/balanceTextView"
@@ -57,6 +74,7 @@
                 android:textColor="#797373"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
+                android:textStyle="bold"
                 />
 
             <TextView
@@ -67,10 +85,11 @@
                 android:text="@string/eth"
                 android:textColor="#797373"
                 android:layout_below="@+id/balanceTextView"
-                android:layout_alignStart="@+id/balanceTextView" />
+                android:layout_alignStart="@+id/balanceTextView"
+                android:textStyle="bold"/>
 
             <Button
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="15dp"
                 android:id="@+id/sendButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -81,7 +100,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="5dp"
                 android:layout_alignParentStart="true"
-                android:layout_below="@+id/ethBalanceTextView"/>
+                android:layout_below="@+id/ethBalanceTextView"
+                android:textStyle="bold"/>
         </RelativeLayout>
 
 

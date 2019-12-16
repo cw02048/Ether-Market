@@ -34,9 +34,6 @@ import java.io.IOException;
  * This class is written for basic functions of Ethereum and web3j integration
  * Because it's handling all the basic function of web3j so that's why we named
  * it as a web3Handler.
- *
- * @version 1.10 24 Aug 2017
- * @author Zain-Ul-Abedin
  */
 
 public class MainActivity extends AppCompatActivity {

@@ -103,7 +103,6 @@ public class CreateWallet extends AppCompatActivity {
             Log.e("TAG", "generateWallet: " + credentials.getAddress() + " " + credentials.getEcKeyPair().getPublicKey());
             editor.putString("fileName", fileName);
             editor.commit();
-            Toast.makeText(CreateWallet.this, pref.getString("fileName", null), Toast.LENGTH_SHORT).show();
             startActivity(new Intent(CreateWallet.this, MainActivity.class));
             finish();
         } catch (NoSuchAlgorithmException

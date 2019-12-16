@@ -9,6 +9,7 @@
 
 
     <LinearLayout
+        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -19,17 +20,17 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:src="@drawable/wallet"
+            android:src="@drawable/store"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
             android:id="@+id/imageView" />
 
         <TextView
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ethereum Wallet"
+            android:text="Ether Store"
             android:textSize="35dp"
             android:textStyle="bold|italic"
             android:textColor="@color/colorPrimary"
@@ -39,7 +40,7 @@
             />
 
         <EditText
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="30dp"
             android:id="@+id/setPasswordEditText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -55,10 +56,12 @@
             android:id="@+id/createWalletButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Create Wallet"
+            android:text="지갑 생성"
             android:background="@color/colorAccent"
             android:textColor="#ffffff"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
 
     </LinearLayout>
 

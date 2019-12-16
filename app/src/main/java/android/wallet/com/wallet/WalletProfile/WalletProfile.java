@@ -35,9 +35,6 @@ import java.math.BigInteger;
  * This class is written for basic functions of Ethereum and web3j integration
  * Because it's handling all the basic function of web3j so that's why we named
  * it as a web3Handler.
- *
- * @version 1.10 24 Aug 2017
- * @author Zain-Ul-Abedin
  */
 
 public class WalletProfile extends AppCompatActivity {
@@ -131,7 +128,7 @@ public class WalletProfile extends AppCompatActivity {
             @Override
             public void run() {
                 /** setting balance to edit text*/
-                ethTextView.setText("ETH " + Convert.toWei(bigInteger.toString(), Convert.Unit.WEI).divide(new BigDecimal("1000000000000000000")));
+                ethTextView.setText(Convert.toWei(bigInteger.toString(), Convert.Unit.WEI).divide(new BigDecimal("1000000000000000000")) + " ETH");
             }
         });
 

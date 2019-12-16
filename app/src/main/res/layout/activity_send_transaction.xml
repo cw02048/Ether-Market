@@ -52,7 +52,7 @@
 
             <Button
                 android:id="@+id/sendButton"
-                android:layout_width="wrap_content"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="@string/send_text"
                 android:background="@color/colorAccent"
@@ -60,7 +60,9 @@
                 android:textColor="@color/whiteColor"
                 android:layout_marginRight="10dp"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
 
         </RelativeLayout>
 
