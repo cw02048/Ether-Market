@@ -1,39 +1,13 @@
-# Web3j-Android-Ether-Wallet-Ethereum-Client
-I developed a simple DApp Ether Wallet in Android. The following functionalities of this project is discuss below.
-# Functionality 
-1. You can login to your existing wallet.
-2. You can connect to any four major ethereum blockchain networks (Rinkeby, Kovan, Ropsten, Main-Net).
-3. You can transfer funds from your ethereum address to another ethereum address.
-4. You can get Gas Price, Block Hash aand Block number on every transaction you perform.
+# Android Ethereum Wallet (using Web3j)
 
-# Getting Started
-This application uploaded for learning purpose. Just copy your UTC file in your phone External or Internal Storage for logging in with network. These instructions will help you to copy this project and run to your local machine. 
+현재까지
 
-## Manifest
-### Permissions
-1. android.permission.INTERNET
-2. android.permission.ACCESS_NETWORK_STATE
-3. android.permission.READ_EXTERNAL_STORAGE
-4. android.permission.CAMERA
+1. 이더리움 지갑 생성 (비밀번호 설정)
 
-### Application
-1. android:largeHeap="true"
+2. json file 을 안드로이드 스마트폰 내에 저장
 
-## MainActivity
-### Install MultiDex
-Copy this statement to MainActivity.java on your project to install MultiDex in your app.
-1. MultiDex.install(this);
+3. 설정한 비밀번호로 Unlock
 
-### Strict Mode
-Copy these to your MainActivity.java for permit all strict mode threads.
-1. final StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-2. StrictMode.setThreadPolicy(policy);
+3. 잔액 확인 가능
 
-## Dependencies
-1. compile 'com.android.support:multidex:1.0.1'
-2. compile 'org.web3j:core-android:2.2.1'
-3. compile 'com.google.zxing:core:3.2.1'
-4. compile 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
-
-## Built with
-Android Studio 2.3.3
+4. 전송 가능
