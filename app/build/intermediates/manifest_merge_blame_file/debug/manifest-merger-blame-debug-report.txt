@@ -91,72 +91,71 @@
 50-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:21:9-54
 51        android:supportsRtl="true"
 51-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:22:9-35
-52        android:testOnly="true"
-53        android:theme="@style/AppTheme"
-53-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:23:9-40
-54        android:usesCleartextTraffic="true" >
-54-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:24:9-44
-55        <activity android:name="android.wallet.com.wallet.Payment" />
-55-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:25:9-54
-55-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:25:19-42
-56        <activity android:name="android.wallet.com.wallet.ProductInfor" />
-56-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:26:9-50
-56-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:26:19-47
-57        <activity android:name="android.wallet.com.wallet.ProductList" />
-57-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:27:9-49
-57-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:27:19-46
-58        <activity android:name="android.wallet.com.wallet.CreateWallet" />
-58-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:28:9-50
-58-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:28:19-47
-59        <activity android:name="android.wallet.com.wallet.MainActivity" >
-59-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:29:9-35:20
-59-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:29:19-47
-60            <intent-filter>
-60-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:30:13-34:29
-61                <action android:name="android.intent.action.MAIN" />
-61-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:31:17-69
-61-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:31:25-66
-62
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:33:17-77
-63-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:33:27-74
-64            </intent-filter>
-65        </activity>
-66        <activity android:name="android.wallet.com.wallet.WalletProfile.WalletProfile" />
-66-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:36:9-65
-66-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:36:19-62
-67        <activity android:name="android.wallet.com.wallet.WalletProfile.SendTransactionActivity" />
-67-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:37:9-75
-67-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:37:19-72
-68
-69        <meta-data
-69-->[com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
-70            android:name="android.support.VERSION"
-70-->[com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
-71            android:value="26.1.0" />
-71-->[com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
-72
-73        <activity
-73-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
-74            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-74-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
-75            android:clearTaskOnLaunch="true"
-75-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
-76            android:screenOrientation="sensorLandscape"
-76-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
-77            android:stateNotNeeded="true"
-77-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
-78            android:theme="@style/zxing_CaptureTheme"
-78-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
-79            android:windowSoftInputMode="stateAlwaysHidden" />
-79-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
-80
-81        <meta-data
-81-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-82            android:name="android.arch.lifecycle.VERSION"
-82-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:26:13-58
-83            android:value="27.0.0-SNAPSHOT" />
-83-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:27:13-44
-84    </application>
-85
-86</manifest>
+52        android:theme="@style/AppTheme"
+52-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:23:9-40
+53        android:usesCleartextTraffic="true" >
+53-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:24:9-44
+54        <activity android:name="android.wallet.com.wallet.Payment" />
+54-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:25:9-54
+54-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:25:19-42
+55        <activity android:name="android.wallet.com.wallet.ProductInfor" />
+55-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:26:9-50
+55-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:26:19-47
+56        <activity android:name="android.wallet.com.wallet.ProductList" />
+56-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:27:9-49
+56-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:27:19-46
+57        <activity android:name="android.wallet.com.wallet.CreateWallet" />
+57-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:28:9-50
+57-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:28:19-47
+58        <activity android:name="android.wallet.com.wallet.MainActivity" >
+58-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:29:9-35:20
+58-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:29:19-47
+59            <intent-filter>
+59-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:30:13-34:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:31:17-69
+60-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:31:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:33:17-77
+62-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:33:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity android:name="android.wallet.com.wallet.WalletProfile.WalletProfile" />
+65-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:36:9-65
+65-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:36:19-62
+66        <activity android:name="android.wallet.com.wallet.WalletProfile.SendTransactionActivity" />
+66-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:37:9-75
+66-->D:\wallet\Android-Ethereum-Wallet\app\src\main\AndroidManifest.xml:37:19-72
+67
+68        <meta-data
+68-->[com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+69            android:name="android.support.VERSION"
+69-->[com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+70            android:value="26.1.0" />
+70-->[com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+71
+72        <activity
+72-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+73            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+73-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+74            android:clearTaskOnLaunch="true"
+74-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+75            android:screenOrientation="sensorLandscape"
+75-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+76            android:stateNotNeeded="true"
+76-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+77            android:theme="@style/zxing_CaptureTheme"
+77-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+78            android:windowSoftInputMode="stateAlwaysHidden" />
+78-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\70bb90ace6f61a544d13effc86b9b773\zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+79
+80        <meta-data
+80-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+81            android:name="android.arch.lifecycle.VERSION"
+81-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:26:13-58
+82            android:value="27.0.0-SNAPSHOT" />
+82-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:27:13-44
+83    </application>
+84
+85</manifest>
