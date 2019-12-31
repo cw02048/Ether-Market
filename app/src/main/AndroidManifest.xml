@@ -22,9 +22,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".web3J.Payment"></activity>
-        <activity android:name=".ProductInfor" />
-        <activity android:name=".ProductList" />
+        <activity android:name=".BuyActivity"></activity>
+        <activity android:name=".RegistActivity" />
+        <activity android:name=".ProductListActivity" />
+        <activity android:name=".web3J.Payment" />
         <activity android:name=".CreateWallet" />
         <activity android:name=".MainActivity">
             <intent-filter>

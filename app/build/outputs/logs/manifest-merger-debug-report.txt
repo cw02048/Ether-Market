@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\0a3ad8c57653c89db3811a1c6df91c28\multidex-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\5185414ffa79aa627d5e690e95e8e487\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
@@ -17,20 +17,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\cw020\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\01fa180fba081b893896aeab7a3b4770\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\5971f3a89ffb6bfcd466bd26a390798b\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:2:11-69
@@ -67,7 +67,7 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\cw020\.gradl
 	android:name
 		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:14:22-62
 application
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:16:5-38:19
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:16:5-39:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\cw020\.gradle\caches\transforms-2\files-2.1\5185414ffa79aa627d5e690e95e8e487\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
@@ -108,44 +108,48 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\cw020\.gradle\caches
 		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:23:9-40
 	android:usesCleartextTraffic
 		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:24:9-44
+activity#android.wallet.com.wallet.BuyActivity
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:25:9-58
+	android:name
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:25:19-46
+activity#android.wallet.com.wallet.RegistActivity
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:26:9-52
+	android:name
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:26:19-49
+activity#android.wallet.com.wallet.ProductListActivity
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:27:9-57
+	android:name
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:27:19-54
 activity#android.wallet.com.wallet.web3J.Payment
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:25:9-60
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:28:9-51
 	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:25:19-48
-activity#android.wallet.com.wallet.ProductInfor
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:26:9-50
-	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:26:19-47
-activity#android.wallet.com.wallet.ProductList
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:27:9-49
-	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:27:19-46
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:28:19-48
 activity#android.wallet.com.wallet.CreateWallet
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:28:9-50
-	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:28:19-47
-activity#android.wallet.com.wallet.MainActivity
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:29:9-35:20
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:29:9-50
 	android:name
 		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:29:19-47
+activity#android.wallet.com.wallet.MainActivity
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:30:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:34:27-74
 activity#android.wallet.com.wallet.WalletProfile.WalletProfile
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:36:9-65
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:37:9-65
 	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:36:19-62
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:37:19-62
 activity#android.wallet.com.wallet.WalletProfile.SendTransactionActivity
-ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:37:9-75
+ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:38:9-75
 	android:name
-		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:37:19-72
+		ADDED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml:38:19-72
 uses-sdk
 INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Ether-market\Ether-Market\app\src\main\AndroidManifest.xml

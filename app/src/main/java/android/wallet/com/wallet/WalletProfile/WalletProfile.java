@@ -19,7 +19,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.wallet.com.wallet.ProductListActivity;
 import android.wallet.com.wallet.R;
+import android.wallet.com.wallet.RegistActivity;
 import android.wallet.com.wallet.web3J.Web3jHandler;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -46,7 +48,7 @@ public class WalletProfile extends AppCompatActivity {
     /** ImgageView for showing QRScan*/
     ImageView qrScanImageView;
     /** variables for send and copy address of wallet */
-    Button sendButton, copyWalletAddressButton;
+    Button sendButton, copyWalletAddressButton, searchButton, registButton;
 
     /**
      * onCreate method call when activity start
@@ -77,6 +79,10 @@ public class WalletProfile extends AppCompatActivity {
         sendButton = (Button) findViewById(R.id.sendButton);
         /** initializing copty wallet address button */
         copyWalletAddressButton = (Button) findViewById(R.id.copyWalletAddress);
+
+        searchButton = (Button) findViewById(R.id.searchButton);
+
+        registButton = (Button) findViewById(R.id.registButton);
 
         /**
          * setUp to launch QRScan activity by using zxing library
@@ -146,6 +152,21 @@ public class WalletProfile extends AppCompatActivity {
                 /** copying wallet address to clipboard */
                 ((ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE)).setText(Web3jHandler.getWalletAddress());
                 Toast.makeText(WalletProfile.this, "Copied to clipboard", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        searchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "물품 조회", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(WalletProfile.this, ProductListActivity.class));
+            }
+        });
+
+        registButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WalletProfile.this, RegistActivity.class));
             }
         });
     }

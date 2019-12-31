@@ -52,9 +52,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="android.wallet.com.wallet.BuyActivity" />
+        <activity android:name="android.wallet.com.wallet.RegistActivity" />
+        <activity android:name="android.wallet.com.wallet.ProductListActivity" />
         <activity android:name="android.wallet.com.wallet.web3J.Payment" />
-        <activity android:name="android.wallet.com.wallet.ProductInfor" />
-        <activity android:name="android.wallet.com.wallet.ProductList" />
         <activity android:name="android.wallet.com.wallet.CreateWallet" />
         <activity android:name="android.wallet.com.wallet.MainActivity" >
             <intent-filter>

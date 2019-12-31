@@ -23,6 +23,7 @@ import android.support.multidex.MultiDex;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.wallet.com.wallet.WalletProfile.WalletProfile;
+import android.wallet.com.wallet.web3J.Payment;
 import android.wallet.com.wallet.web3J.Web3jHandler;
 import android.widget.Button;
 import android.widget.EditText;
@@ -121,14 +122,11 @@ public class MainActivity extends AppCompatActivity {
              * starting wallet profile activity
              * @param Intent
              * */
-            Toast.makeText(MainActivity.this, Web3jHandler.getPrice().toString(), Toast.LENGTH_SHORT).show();
             startActivity(new Intent(MainActivity.this, WalletProfile.class));
         } catch (CipherException e) {
             Toast.makeText(MainActivity.this, "Invalid Password", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             Toast.makeText(MainActivity.this, "Connection Error", Toast.LENGTH_SHORT).show();
-        } catch (InterruptedException e) {
-        } catch (ExecutionException e) {
         }
         }
     }

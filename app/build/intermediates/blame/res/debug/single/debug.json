@@ -232,10 +232,6 @@
         "source": "C:\\Users\\cw020\\.gradle\\caches\\transforms-2\\files-2.1\\e4a41c2346dd5a38c111db5ef8bb8159\\appcompat-v7-26.1.0\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_infor.xml.flat",
-        "source": "D:\\Ether-market\\Ether-Market\\app\\src\\main\\res\\layout\\activity_product_infor.xml"
-    },
-    {
         "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\cw020\\.gradle\\caches\\transforms-2\\files-2.1\\e4a41c2346dd5a38c111db5ef8bb8159\\appcompat-v7-26.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -564,12 +560,16 @@
         "source": "C:\\Users\\cw020\\.gradle\\caches\\transforms-2\\files-2.1\\e4a41c2346dd5a38c111db5ef8bb8159\\appcompat-v7-26.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment.xml.flat",
-        "source": "D:\\Ether-market\\Ether-Market\\app\\src\\main\\res\\layout\\activity_payment.xml"
-    },
-    {
         "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\cw020\\.gradle\\caches\\transforms-2\\files-2.1\\e4a41c2346dd5a38c111db5ef8bb8159\\appcompat-v7-26.1.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_buy.xml.flat",
+        "source": "D:\\Ether-market\\Ether-Market\\app\\src\\main\\res\\layout\\activity_buy.xml"
+    },
+    {
+        "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview.xml.flat",
+        "source": "D:\\Ether-market\\Ether-Market\\app\\src\\main\\res\\layout\\listview.xml"
     },
     {
         "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
@@ -618,10 +618,6 @@
     {
         "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
         "source": "C:\\Users\\cw020\\.gradle\\caches\\transforms-2\\files-2.1\\e4a41c2346dd5a38c111db5ef8bb8159\\appcompat-v7-26.1.0\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_imfomation.xml.flat",
-        "source": "D:\\Ether-market\\Ether-Market\\app\\src\\main\\res\\layout\\activity_product_imfomation.xml"
     },
     {
         "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -738,6 +734,10 @@
     {
         "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
         "source": "C:\\Users\\cw020\\.gradle\\caches\\transforms-2\\files-2.1\\e4a41c2346dd5a38c111db5ef8bb8159\\appcompat-v7-26.1.0\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_regist.xml.flat",
+        "source": "D:\\Ether-market\\Ether-Market\\app\\src\\main\\res\\layout\\activity_regist.xml"
     },
     {
         "merged": "D:\\Ether-market\\Ether-Market\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",

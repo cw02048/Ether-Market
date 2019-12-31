@@ -18,6 +18,7 @@ import android.wallet.com.wallet.MainActivity;
 import android.widget.Toast;
 
 import org.web3j.abi.FunctionEncoder;
+import org.web3j.abi.datatypes.Address;
 import org.web3j.abi.datatypes.Utf8String;
 import org.web3j.abi.datatypes.generated.Uint256;
 import org.web3j.crypto.CipherException;
@@ -63,7 +64,7 @@ public class Web3jHandler {
      * @return condition
      */
     public static boolean web3Connection() throws IOException {
-        web3 = Web3jFactory.build(new HttpService("https://ropsten.infura.io/v3/60a7253d4849469f8f3beb166e566fd3"));
+        web3 = Web3jFactory.build(new HttpService("https://kovan.infura.io/v3/60a7253d4849469f8f3beb166e566fd3"));
 
         return  web3 != null;
     }
@@ -115,15 +116,63 @@ public class Web3jHandler {
         return credentials.getAddress();
     }
 
-    public static BigInteger getPrice() throws ExecutionException, InterruptedException{
-        Payment payment = Payment.load("0x25B7B1113417CB676fbf32CD424Bb9C367205015", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+    public static String address(String name) throws ExecutionException, InterruptedException{
 
-        Future<Uint256> price1 = payment.getPrice(new Utf8String("phone"));
-
-        Uint256 price2 = price1.get();
-
-        BigInteger result = price2.getValue();
+        Payment payment = Payment.load("0xe8Ea0d2133317dC85112a80FC5AC8d6C1B77146C", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+        Future<Address> value1 = payment.getSellerAddress(new Utf8String(name));
+        Address price2 = value1.get();
+        String result = price2.toString();
 
         return result;
+    }
+
+    public static String stock(String name) throws ExecutionException, InterruptedException{
+
+        Payment payment = Payment.load("0xe8Ea0d2133317dC85112a80FC5AC8d6C1B77146C", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+        Future<Uint256> value1 = payment.getStock(new Utf8String(name));
+        Uint256 value2 = value1.get();
+        BigInteger result = value2.getValue();
+
+        return result.toString();
+    }
+
+    public static String price(String name) throws ExecutionException, InterruptedException{
+
+        Payment payment = Payment.load("0xe8Ea0d2133317dC85112a80FC5AC8d6C1B77146C", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+        Future<Uint256> value1 = payment.getPrice(new Utf8String(name));
+        Uint256 value2 = value1.get();
+        BigInteger result = value2.getValue();
+
+        return result.toString();
+    }
+
+    public static String productCount() throws ExecutionException, InterruptedException{
+
+        Payment payment = Payment.load("0xe8Ea0d2133317dC85112a80FC5AC8d6C1B77146C", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+        Future<Uint256> value1 = payment.getProductCount();
+        Uint256 value2 = value1.get();
+        BigInteger result = value2.getValue();
+
+        return result.toString();
+    }
+
+    public static String productName(int index) throws ExecutionException, InterruptedException{
+
+        Payment payment = Payment.load("0xe8Ea0d2133317dC85112a80FC5AC8d6C1B77146C", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+        Future<Utf8String> value1 = payment.getProductList(new Uint256(index));
+        Utf8String value2 = value1.get();
+        String result = value2.getValue();
+
+        return result;
+    }
+
+    public static void registration(String name, int price, int stock) {
+        Payment payment = Payment.load("0xe8Ea0d2133317dC85112a80FC5AC8d6C1B77146C", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+        payment.registration(new Utf8String(name), new Uint256(price), new Uint256(stock));
+    }
+
+    public static void buy(String name, int stock) {
+        Payment payment = Payment.load("0xe8Ea0d2133317dC85112a80FC5AC8d6C1B77146C", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+        payment.buy(new Utf8String(name), new Uint256(stock));
     }
 }

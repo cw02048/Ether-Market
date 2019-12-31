@@ -117,7 +117,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="@string/copy_address_text"
+            android:text="내 지갑 주소 복사"
             android:background="#ffffff"
             android:textColor="@color/colorAccent"
             android:layout_alignBaseline="@+id/sendButton"
@@ -130,13 +130,41 @@
             android:background="@color/colorAccent"
             />
 
-        <ListView
-            android:layout_margin="3dp"
-            android:id="@+id/transactionHistories"
+        <Button
+            android:id="@+id/searchButton"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="물품 조회"
+            android:background="#ffffff"
+            android:textColor="@color/colorAccent"
+            android:layout_alignBaseline="@+id/sendButton"
+            android:layout_alignBottom="@+id/sendButton"
+            android:layout_alignParentEnd="true" />
 
-        </ListView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/registButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="물품 등록"
+            android:background="#ffffff"
+            android:textColor="@color/colorAccent"
+            android:layout_alignBaseline="@+id/sendButton"
+            android:layout_alignBottom="@+id/sendButton"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorAccent"
+            />
 
     </LinearLayout>
 
