@@ -14,12 +14,19 @@ package android.wallet.com.wallet.web3J;
 
 import android.content.SharedPreferences;
 import android.os.Environment;
+import android.wallet.com.wallet.MainActivity;
+import android.widget.Toast;
+
+import org.web3j.abi.FunctionEncoder;
+import org.web3j.abi.datatypes.Utf8String;
+import org.web3j.abi.datatypes.generated.Uint256;
 import org.web3j.crypto.CipherException;
 import org.web3j.crypto.Credentials;
 import org.web3j.crypto.WalletUtils;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.Web3jFactory;
 import org.web3j.protocol.core.DefaultBlockParameterName;
+import org.web3j.protocol.core.methods.request.Transaction;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.protocol.exceptions.TransactionTimeoutException;
@@ -29,6 +36,7 @@ import org.web3j.utils.Convert;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.Arrays;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
@@ -39,9 +47,6 @@ import static android.content.Context.MODE_PRIVATE;
  * This class is written for basic functions of Ethereum and web3j integration
  * Because it's handling all the basic function of web3j so that's why we named
  * it as a web3Handler.
- *
- * @version 1.10 24 Aug 2017
- * @author Zain-Ul-Abedin
  */
 
 public class Web3jHandler {
@@ -58,7 +63,8 @@ public class Web3jHandler {
      * @return condition
      */
     public static boolean web3Connection() throws IOException {
-        web3 = Web3jFactory.build(new HttpService("http://13.125.245.111:8545"));
+        web3 = Web3jFactory.build(new HttpService("https://ropsten.infura.io/v3/60a7253d4849469f8f3beb166e566fd3"));
+
         return  web3 != null;
     }
 
@@ -109,4 +115,15 @@ public class Web3jHandler {
         return credentials.getAddress();
     }
 
+    public static BigInteger getPrice() throws ExecutionException, InterruptedException{
+        Payment payment = Payment.load("0x25B7B1113417CB676fbf32CD424Bb9C367205015", web3, credentials, BigInteger.valueOf(20_000_000_000L), BigInteger.valueOf(4300000));
+
+        Future<Uint256> price1 = payment.getPrice(new Utf8String("phone"));
+
+        Uint256 price2 = price1.get();
+
+        BigInteger result = price2.getValue();
+
+        return result;
+    }
 }

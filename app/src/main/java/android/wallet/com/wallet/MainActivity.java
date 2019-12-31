@@ -29,6 +29,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 import org.web3j.crypto.CipherException;
 import java.io.IOException;
+import java.util.concurrent.ExecutionException;
 
 /**
  * This class is written for basic functions of Ethereum and web3j integration
@@ -111,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
              * @param password
              * @throws CipherException
              * @throws IOException
+             * @throws ExecutionException
+             * @throws InterruptedException
              * */
             SharedPreferences pref = getSharedPreferences("pref", MODE_PRIVATE);
             Web3jHandler.loadCredentials(passwordEditText.getText().toString(), pref.getString("fileName", null));
@@ -118,11 +121,14 @@ public class MainActivity extends AppCompatActivity {
              * starting wallet profile activity
              * @param Intent
              * */
+            Toast.makeText(MainActivity.this, Web3jHandler.getPrice().toString(), Toast.LENGTH_SHORT).show();
             startActivity(new Intent(MainActivity.this, WalletProfile.class));
         } catch (CipherException e) {
             Toast.makeText(MainActivity.this, "Invalid Password", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             Toast.makeText(MainActivity.this, "Connection Error", Toast.LENGTH_SHORT).show();
+        } catch (InterruptedException e) {
+        } catch (ExecutionException e) {
+        }
         }
     }
-}

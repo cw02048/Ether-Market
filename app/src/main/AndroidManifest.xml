@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Payment"></activity>
+        <activity android:name=".web3J.Payment"></activity>
         <activity android:name=".ProductInfor" />
         <activity android:name=".ProductList" />
         <activity android:name=".CreateWallet" />

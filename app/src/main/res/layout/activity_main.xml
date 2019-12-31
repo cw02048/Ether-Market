@@ -29,7 +29,7 @@
             android:layout_margin="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ether Store"
+            android:text="@string/app_name"
             android:textSize="35dp"
             android:textStyle="bold|italic"
             android:textColor="@color/colorPrimary"

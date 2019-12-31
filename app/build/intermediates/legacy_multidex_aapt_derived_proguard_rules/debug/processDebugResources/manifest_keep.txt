@@ -1,2 +1,2 @@
-# Referenced at D:\wallet\Android-Ethereum-Wallet\app\build\intermediates\merged_manifests\debug\arm64-v8a\AndroidManifest.xml:43
+# Referenced at D:\Ether-market\Ether-Market\app\build\intermediates\merged_manifests\debug\arm64-v8a\AndroidManifest.xml:43
 -keep class android.support.multidex.MultiDexApplication { <init>(); }
