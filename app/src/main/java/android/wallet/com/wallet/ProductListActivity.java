@@ -52,18 +52,18 @@ public class ProductListActivity extends AppCompatActivity {
 
         int productCount;
         String productName;
-        int i;
 
+        int i;
         try {
             productCount = Integer.parseInt(Web3jHandler.productCount());
+
             for (i = 0; i < productCount; i++) {
                 productName = Web3jHandler.productName(i);
                 productDataList.add(new ListData(productName, Web3jHandler.address(productName),Web3jHandler.price(productName), Web3jHandler.stock(productName)));
             }
+        } catch (InterruptedException e){
+        } catch (ExecutionException e) {
         }
-        catch (InterruptedException e) {
-        }
-        catch (ExecutionException e) {
-        }
+
     }
 }
